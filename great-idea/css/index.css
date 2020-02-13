@@ -64,3 +64,216 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.maxwidth{
+	padding: 50px;
+	}
+	header{
+		
+		display: flex;
+		justify-content: space-between;
+	}
+	header nav{
+		width: 80%;
+		display: flex;
+		justify-content: space-evenly;
+		height: 40px;
+		vertical-align: middle;
+		
+	}
+	header nav a{
+	
+	text-decoration: none;
+	color: lightgrey;
+	vertical-align: middle;
+	padding-top: 10px;
+	font-size: 1.1rem;
+	}
+	
+	
+	
+	 .logo{
+	
+
+	
+	
+	}
+	
+	/*pic/button*/
+	.main{
+		padding: 4%;
+		margin-top: 20px;
+		display: flex;
+		justify-content: space-between;
+	}
+	.main .left {
+		
+		width: 400px;
+		padding: 40px;
+		vertical-align: middle;
+		
+	}
+	h1{
+		font-size: 5rem;
+		text-align: center;
+	}
+	.main .right{
+		
+		width: 410px;
+	
+	
+	
+	}
+	.main .right img{
+		width: 410px;
+		padding: 40px;
+		
+	
+	}
+	.btn button{
+		margin-left: 50px;
+		padding: 10px 70px 10px 70px;
+		background-color: white;
+		border-color: black;
+		font-size: 1.1rem;
+		vertical-align: middle;
+	}
+	
+	
+	
+	
+	
+	/*text area*/
+	.toptext{
+		border-top: black solid 1px;
+		display: flex;
+	}
+	.toptext .left{
+		
+		width: 50%;
+		padding: 40px;
+		padding-left: 0;
+	}
+	.toptext .right{
+		
+		width: 50%;
+		padding: 40px;
+		padding-left: 0;
+	}
+	.middle-img{
+		width: 100%;
+	}
+	.bottomtext{
+		border-bottom: solid black 1px;
+		padding-bottom: 30px;
+		display: flex;
+	}
+	.bottomtext .left{
+		
+		width: 33%;
+		padding: 20px;
+		padding-left: 0;
+	}
+	.bottomtext .middle{
+		
+		width: 33%;
+		padding: 20px;
+		padding-left: 0;
+	}
+	.bottomtext .right{
+		
+		width: 33%;
+		padding: 20px;	
+		padding-left: 0;
+	}
+	footer{
+		padding-top: 30px;
+	}
+	footer .spaceoutmiddle{
+		padding: 10px 0 10px 0;
+	}
+	footer .spaceoutbottom{
+		padding: 10px 0 10px 0;
+	}
+	.bottom{
+		text-align: center;
+		padding: 100px;
+	}
+
+	/******************************
+	next page
+	**************************/
+	.services-header-img{
+padding: 30px 0px 30px 0px;
+width: 100%;
+	}
+	.first-text{
+		padding: 30px 0px 20px 0px;	
+		border-bottom: black solid 1px;
+	}
+	.first-text h3{
+		font-size: 1.5rem;
+	}
+	.wrap{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding-bottom: 20px;
+	}
+	.itembox{
+width: 48%;
+padding: 20px;
+margin-top: 30px;
+margin-bottom: 10px;
+background-color: rgb(244, 243, 244);
+border: black solid 1px;
+	}
+	.itembox button{
+		margin-top: 20px;
+		width: 150px;
+		height: 40px;
+		background-color: white;
+		border: black solid 1px;
+		border-radius: 5px;
+	}	
+
+
+	.facts{
+		display: flex;
+		justify-content: space-between;
+		padding-top: 50px;
+		border-top: black solid 1px;
+
+	}
+	.last-text{
+		width: 48%;	
+	}
+	.services-info-img{
+		width: 48%;
+	}
+	.dots{
+	display: flex;
+	flex-direction: column;
+	padding-top: 20px;
+	}
+	.dots .dtext{
+display: flex;
+padding: 10px 0 10px 0;
+
+	}
+	
+	.dots .dtext p{
+		padding-left: 20px;
+	}	
+	
+	.dot {
+		height: 7px;
+		width: 7px;
+		background-color: black;
+		margin-top: 5px;
+
+	  }
+	  .bottom2{
+		  text-align: center;
+	
+		  padding-top: 50px;
+	  }
